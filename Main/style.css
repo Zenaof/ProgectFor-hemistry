@@ -61,6 +61,18 @@ header
 .box-5
 {
     grid-area: B;
+
+    display: flex;
+    flex-direction: column;
+
+    place-items: center;
+}
+
+.box-5 [class^='box-']
+{
+    background-color: #f5f5f5;
+
+    margin: auto;
 }
 
 .box-6
