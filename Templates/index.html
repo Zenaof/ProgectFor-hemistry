@@ -16,16 +16,16 @@
 <body>
     <div class="container1">
         <div class="box-4">
-            <div class="fire"  id="fire">
-                <img class="blueFlame" src="../static/Images/blueFlame.gif" alt="Your GIF">
+            <div class="fire">
+                <img class="Flame" id="fire" src="../static/Images/blueFlame.gif" alt="Your GIF">
             </div>
         </div>
         <div class="box-5">
             <div class="boxs-1">
-                <button id="blueFl" onclick="changeText()">Цезий</button>
+                <button id="blueFl" onclick="changeCs()">Цезий</button>
             </div>
             <div class="boxs-2">
-                <button id="Cs"></button>
+                <button onclick="changeLi()">Литий</button>
             </div>
             <div class="boxs-3">
 
@@ -57,18 +57,10 @@
             </div>
             <div class="boxs-11" id="boxs-11">
                 <div class="bosx-5">Характерные признаки</div>
-                <div class="bos-6">B</div>
+                <div class="bos-6" id="bos-6">B</div>
             </div>
         </div>
     </div>
-    <script>
-        let box1 = document.getElementById('bos-2')
-
-        function changeText()
-        {
-            box1.textContent('Цезий')
-        }
-
-    </script>
+    <script src="../static/js/index.js"></script>
 </body>
 </html>
